@@ -7,13 +7,19 @@
     tools:context="com.example.nerd.customviewt.MainActivity">
 
     <com.example.nerd.verview.VerCode
+        android:id="@+id/ver_code"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="10dp"
         android:layout_centerInParent="true"
-        app:verLen="10"
+        app:verLen="5"
         app:txtColor="#ff0000"
         app:txtSize="30sp"
         />
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click me"/>
 
 </RelativeLayout>
